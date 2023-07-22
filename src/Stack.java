@@ -5,7 +5,7 @@ import java.util.EmptyStackException;
 /**
  *A stack holding Entry objects using ArrayLists.
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public class Stack {

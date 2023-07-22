@@ -2,7 +2,7 @@
 /**
  *An enum of Symbols used in the calculator. 
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public enum Symbol {
