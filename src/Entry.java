@@ -2,7 +2,7 @@
 /**
  *A container class that can hold String, Float or Symbol types.
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public class Entry {

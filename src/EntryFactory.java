@@ -2,7 +2,7 @@
 
 /**A factory for Entry that takes the input and returns an Entry of the correct output type.
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public class EntryFactory {

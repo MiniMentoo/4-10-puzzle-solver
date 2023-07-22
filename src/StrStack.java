@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 /**
  * A facade of Stack that only contains String Entry objects.
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public class StrStack {

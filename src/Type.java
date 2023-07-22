@@ -2,7 +2,7 @@
 /**
  *An Enum of Types used in Entry to describe the payload of each Entry.
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public enum Type {

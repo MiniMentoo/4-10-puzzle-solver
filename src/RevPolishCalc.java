@@ -1,9 +1,9 @@
 
 import java.util.EmptyStackException;
 
-/**A method to implement Reverse Polish Calculations.
+/**A class to implement Reverse Polish Calculations.
  *
- * @author zkac192
+ * @author Mostafa A
  *
  */
 public class RevPolishCalc {
