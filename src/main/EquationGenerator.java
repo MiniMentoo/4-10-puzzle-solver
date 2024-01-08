@@ -8,13 +8,19 @@ package main;
 public class EquationGenerator {
     RevPolishCalc calc;
     char[] ops = {'+', '-', '*', '/'};
-    double GOAL = 10;
+    double GOAL;
 
     /**Constructor for main.main.EquationGenerator, initiates the calculator.
      * GOAL and ops are constants for now.
      *
      */
     public EquationGenerator() {
+        this.GOAL = 10;
+        calc = new RevPolishCalc();
+    }
+
+    public EquationGenerator(int goal) {
+        this.GOAL = goal;
         calc = new RevPolishCalc();
     }
 
@@ -64,7 +70,7 @@ public class EquationGenerator {
                     num[5] = ops[k];
                     num[6] = ops[l];
                     String s = num[0] + " " + num[1] + " " + num[2] + " " + num[3] + " " + num[4] + " " + num[5] + " " + num[6];
-                    if (equalsTen(s)) {
+                    if (equalsGoal(s)) {
                         builder.append(s);
                         builder.append('\n');
                     }
@@ -78,7 +84,7 @@ public class EquationGenerator {
      * @param sum a String representing a calculation written in POSTFIX, seperated by spaces.
      * @return true is the calculation equals the GOAL and false if not or if the string is not in the correct format.
      */
-    public boolean equalsTen(String sum) {
+    public boolean equalsGoal(String sum) {
         boolean b = false;
         try {
             b = calc.evaluate(sum) == GOAL;
