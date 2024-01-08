@@ -1,3 +1,4 @@
+package main;
 
 /**
  *An enum of Symbols used in the calculator. 

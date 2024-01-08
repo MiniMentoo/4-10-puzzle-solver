@@ -1,9 +1,10 @@
+package main;
 
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 
 /**
- *A stack holding Entry objects using ArrayLists.
+ *A stack holding main.main.Entry objects using ArrayLists.
  *
  * @author Mostafa A
  *
@@ -28,20 +29,20 @@ public class Stack {
   }
 
   /**
-   *Pushes the Entry object to the top of the stack and increments stack size.
+   *Pushes the main.main.Entry object to the top of the stack and increments stack size.
    *
-   * @param entry The Entry to be added to the top of the stack. 
+   * @param entry The main.main.Entry to be added to the top of the stack.
    */
   public void push(Entry entry) {
-    list.ensureCapacity(1); // always ensures there's room for the next Entry to be pushed
+    list.ensureCapacity(1); // always ensures there's room for the next main.main.Entry to be pushed
     list.add(size, entry);
     size++;
   }
 
   /**
-   *Removes and returns the top Entry of the stack and decrements stack size. 
+   *Removes and returns the top main.main.Entry of the stack and decrements stack size.
    *
-   * @return The Entry removed from the top of the stack
+   * @return The main.main.Entry removed from the top of the stack
    *
    * @throws EmptyStackException if attempting to pop an empty stack.
    */
@@ -54,9 +55,9 @@ public class Stack {
   }
 
   /**
-   *Returns the top Entry of the stack, and leaves the Entry there.
+   *Returns the top main.main.Entry of the stack, and leaves the main.main.Entry there.
    *
-   * @return The Entry on top of the stack.
+   * @return The main.main.Entry on top of the stack.
    * 
    * @throws EmptyStackException if attempting to top an empty stack.
    */

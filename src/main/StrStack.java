@@ -1,8 +1,11 @@
+package main;
+
+import main.Stack;
 
 import java.util.EmptyStackException;
 
 /**
- * A facade of Stack that only contains String Entry objects.
+ * A facade of main.Stack that only contains String main.main.Entry objects.
  *
  * @author Mostafa A
  *
@@ -17,7 +20,7 @@ public class StrStack {
   
   
   /**
-   * Pushes a string as an Entry object to the top of a stack and increments size.
+   * Pushes a string as an main.main.Entry object to the top of a stack and increments size.
    *
    * @param str the string being pushed onto the stack.
    */
@@ -27,9 +30,9 @@ public class StrStack {
   
 
   /**
-   *Returns the String at the top Entry of the stack, leaving the Entry there.
+   *Returns the String at the top main.main.Entry of the stack, leaving the main.main.Entry there.
    *
-   * @return The String in the top Entry of the stack.
+   * @return The String in the top main.main.Entry of the stack.
    * 
    * @throws EmptyStackException if trying to strTop an empty stack.
    */
@@ -38,9 +41,9 @@ public class StrStack {
   }
 
   /**
-   *Returns the String at the top of the Entry stack and decrements stack size.
+   *Returns the String at the top of the main.main.Entry stack and decrements stack size.
    *
-   * @return The string in the Entry being removed on top of the stack
+   * @return The string in the main.main.Entry being removed on top of the stack
    * 
    * @throws EmptyStackException if called on an empty stack
    */

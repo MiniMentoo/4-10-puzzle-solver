@@ -1,3 +1,4 @@
+package main;
 
 import java.util.EmptyStackException;
 
@@ -11,7 +12,7 @@ public class RevPolishCalc {
   StrStack strStack;
   Calculator calc;
 
-  /**Constructor for RevPolishCalc, initiates OpStack, NumStack and calculator.
+  /**Constructor for main.RevPolishCalc, initiates OpStack, NumStack and calculator.
  * 
  */
   public RevPolishCalc() {

@@ -1,6 +1,6 @@
+package main;
 
-
-/**A factory for Entry that takes the input and returns an Entry of the correct output type.
+/**A factory for main.main.Entry that takes the input and returns an main.main.Entry of the correct output type.
  *
  * @author Mostafa A
  *
@@ -26,10 +26,10 @@ public class EntryFactory {
   }
 
 
-  /**Takes a string and returns Entry of the strings type.
+  /**Takes a string and returns main.main.Entry of the strings type.
    *
  * @param entryType A string that can represent an operation, number or string.
- * @return Entry of the respective type.
+ * @return main.main.Entry of the respective type.
  */
   public static Entry getEntry(String entryType) {
     if (entryType == null) { 

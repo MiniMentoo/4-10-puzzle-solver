@@ -1,12 +1,13 @@
+package main;
 
 /**
- *An Enum of Types used in Entry to describe the payload of each Entry.
+ *An Enum of Types used in main.main.Entry to describe the payload of each main.main.Entry.
  *
  * @author Mostafa A
  *
  */
 public enum Type {
-  NUMBER("Number"), SYMBOL("Symbol"), STRING("String"), INVALID("Invalid");
+  NUMBER("Number"), SYMBOL("main.Symbol"), STRING("String"), INVALID("Invalid");
 
   private String str;
 

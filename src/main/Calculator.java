@@ -1,5 +1,6 @@
+package main;
 
-/**A simple calculator that can be set to different modes based on the calculation 
+/**A simple calculator that can be set to different modes based on the calculation
  *    type being infix or not.
  *
  * @author zkac192

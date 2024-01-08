@@ -1,3 +1,5 @@
+package main;
+
 /**Generates every possible iteration of 4 numbers and their operators,
  * then checks to see if each iteration equals the goal (10).
  *
@@ -8,7 +10,7 @@ public class EquationGenerator {
     char[] ops = {'+', '-', '*', '/'};
     double GOAL = 10;
 
-    /**Constructor for EquationGenerator, initiates the calculator.
+    /**Constructor for main.main.EquationGenerator, initiates the calculator.
      * GOAL and ops are constants for now.
      *
      */

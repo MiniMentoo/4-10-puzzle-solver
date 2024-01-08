@@ -1,6 +1,7 @@
+package main;
 
 /**
- *A container class that can hold String, Float or Symbol types.
+ *A container class that can hold String, Float or main.Symbol types.
  *
  * @author Mostafa A
  *
@@ -36,43 +37,43 @@ public class Entry {
   }
 
   /**
-   *Returns the String value of Entry if called on an Entry of type String.
+   *Returns the String value of main.main.Entry if called on an main.main.Entry of type String.
    *
-   * @return The String value of Entry.
+   * @return The String value of main.main.Entry.
    * 
-   * @throws IllegalArgumentException if called on an Entry object that's not a String type.
+   * @throws IllegalArgumentException if called on an main.main.Entry object that's not a String type.
    */
   public String getString() {
     if (this.type != Type.STRING) {
-      throw new IllegalArgumentException("getString called on Entry object of another type");
+      throw new IllegalArgumentException("getString called on main.main.Entry object of another type");
     }
     return this.str;
   }
 
   /**
-   *Returns the Float value of Entry if called on an Entry of type Number.
+   *Returns the Float value of main.main.Entry if called on an main.main.Entry of type Number.
    *
-   * @return The Float value of Entry.
+   * @return The Float value of main.main.Entry.
    * 
-   * @throws IllegalArgumentException if called on an Entry object that's not a float type.
+   * @throws IllegalArgumentException if called on an main.main.Entry object that's not a float type.
    */
   public float getValue() {
     if (this.type != Type.NUMBER) {
-      throw new IllegalArgumentException("getValue called on Entry object of another type");
+      throw new IllegalArgumentException("getValue called on main.main.Entry object of another type");
     }
     return this.value;
   }
 
   /**
-   *Returns the Symbol value of Entry if called on an Entry of type Symbol.
+   *Returns the main.Symbol value of main.main.Entry if called on an main.main.Entry of type main.Symbol.
    *
-   * @return The Symbol value of Entry.
+   * @return The main.Symbol value of main.main.Entry.
    * 
-   * @throws IllegalArgumentException if called on an Entry object that's not a Symbol type.
+   * @throws IllegalArgumentException if called on an main.main.Entry object that's not a main.Symbol type.
    */
   public Symbol getSymbol() {
     if (this.type != Type.SYMBOL) {
-      throw new IllegalArgumentException("getSymbol called on Entry object of another type");
+      throw new IllegalArgumentException("getSymbol called on main.main.Entry object of another type");
     }
     return this.symbol;
   }
